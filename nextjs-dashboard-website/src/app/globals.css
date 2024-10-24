@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* globals.css */
+/* .test-class {
+  @apply bg-red-500;
+} */
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} 
